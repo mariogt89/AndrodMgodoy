@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:context="com.example.mgodoy.layout.MainActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.67"
+        android:autoText="false"
+        android:onClick="returnarResultado"
+        android:padding="10dp"
+        android:paddingBottom="10dp"
+        android:text="Text" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.67"
+        android:onClick="starSelecteOpt"
+        android:padding="10dp"
+        android:paddingBottom="10dp"
+        android:text="Select Opt" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.67"
+        android:onClick="starActivity"
+        android:padding="10dp"
+        android:paddingBottom="10dp"
+        android:text="Image Opt" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.67"
+        android:onClick="StarListView"
+        android:padding="10dp"
+        android:paddingBottom="10dp"
+        android:text="ListView" />
+
+</LinearLayout>
