@@ -5,51 +5,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/holo_blue_light"
-    tools:context="com.example.mgodoy.layout.MainActivity">
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.mgodoy.layout.MainActivity"
+    android:weightSum="1">
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_weight="0.67"
-        android:autoText="false"
         android:onClick="returnarResultado"
-        android:padding="10dp"
-        android:paddingBottom="10dp"
         android:text="Text" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_weight="0.67"
         android:onClick="starSelecteOpt"
-        android:padding="10dp"
-        android:paddingBottom="10dp"
         android:text="Select Opt" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="wrap_content"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_weight="0.67"
         android:onClick="starActivity"
-        android:padding="10dp"
-        android:paddingBottom="10dp"
-        android:text="Image Opt" />
+                   android:text="Image Opt" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_weight="0.67"
         android:onClick="StarListView"
-        android:padding="10dp"
-        android:paddingBottom="10dp"
         android:text="ListView" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        android:layout_weight="0.54" />
 
 </LinearLayout>
