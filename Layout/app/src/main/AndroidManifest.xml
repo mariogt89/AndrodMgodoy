@@ -19,7 +19,15 @@
         <activity android:name=".TextActivity" />
         <activity android:name=".imageOptActivity" />
         <activity android:name=".SelectedOptActivity" />
-        <activity android:name=".ListViewActivity"></activity>
+        <activity android:name=".ListViewActivity" />
+        <activity
+            android:name=".activityClass"
+            android:label="@string/title_activity_class"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_tarea"
+            android:label="@string/title_activity_tarea"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

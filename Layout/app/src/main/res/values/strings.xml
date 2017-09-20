@@ -20,4 +20,6 @@
         <item>Maletin</item>
         <item>Calculadora</item>
     </string-array>
+    <string name="title_activity_class">activityClass</string>
+    <string name="title_activity_tarea">Activity_tarea</string>
 </resources>

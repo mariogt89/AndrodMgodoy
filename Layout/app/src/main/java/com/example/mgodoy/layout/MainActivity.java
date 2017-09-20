@@ -29,6 +29,17 @@ public class MainActivity extends AppCompatActivity {
     }
     public void StarListView(View view){
         startActivity(new Intent(this,ListViewActivity.class));
+
+
+}
+
+    public void RecycleActivity(View view){
+        startActivity(new Intent(this,activityClass.class));
+    }
+
+    public void RecycleActivityTarea(View view){
+        startActivity(new Intent(this,Activity_tarea.class));
     }
 
 }
+
