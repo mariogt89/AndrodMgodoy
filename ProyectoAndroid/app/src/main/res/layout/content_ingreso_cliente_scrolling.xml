@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mgodoy.proyectoandroid.Activity.IngresoClienteScrollingActivity"
+    tools:showIn="@layout/activity_ingreso_cliente_scrolling">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txtcliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="20dp"
+            android:hint="Cliente"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/txtDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtcliente"
+            android:layout_margin="10sp"
+            android:layout_marginBottom="15sp"
+            android:singleLine="true"
+            android:hint="Direccion" />
+
+        <EditText
+            android:id="@+id/txtNit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtDireccion"
+            android:layout_margin="10sp"
+            android:layout_marginBottom="15sp"
+            android:singleLine="true"
+            android:hint="Nit" />
+
+        <EditText
+            android:id="@+id/txtTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtNit"
+            android:layout_margin="10sp"
+            android:layout_marginBottom="15sp"
+            android:singleLine="true"
+            android:hint="telefono" />
+
+        <EditText
+            android:id="@+id/txtcontatcto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTelefono"
+            android:layout_margin="10sp"
+            android:layout_marginBottom="15sp"
+            android:singleLine="true"
+            android:hint="Contancto" />
+
+        <EditText
+            android:id="@+id/txtcorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtcontatcto"
+            android:layout_margin="10sp"
+            android:layout_marginBottom="15sp"
+            android:singleLine="true"
+            android:hint="correo" />
+
+        <TextView
+            android:id="@+id/tv_mostrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informacion Ingresada"
+            android:layout_below="@+id/txtcorreo"/>
+
+        <TextView
+            android:id="@+id/tv_resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@id/tv_mostrar"
+            android:text=""
+            android:textColor="@android:color/holo_green_dark" />
+        <TextView
+            android:id="@+id/tv_resultado1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@id/tv_resultado"
+            android:text=""
+            android:textColor="@android:color/holo_green_dark" />
+
+        <TextView
+            android:id="@+id/tv_resultado2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@id/tv_resultado1"
+            android:text=""
+            android:textColor="@android:color/holo_green_dark" />
+
+        <TextView
+            android:id="@+id/tv_resultado3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@id/tv_resultado2"
+            android:text=""
+            android:textColor="@android:color/holo_green_dark" />
+
+
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:weightSum="1"
+    tools:context="com.example.mgodoy.proyectoandroid.Activity.LoginActivity">
+
+    <ImageView
+        android:id="@+id/ImgView"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:adjustViewBounds="true"
+        android:scaleType="center"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/hame" />
+
+
+    <EditText
+        android:id="@+id/txtUsuario"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dip"
+        android:layout_marginTop="40dip"
+        android:ems="10"
+        android:hint="Usuario"
+        android:padding="10sp"
+        android:paddingBottom="15sp"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.03"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:padding="10sp"
+        android:paddingBottom="10sp" />
+
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="352dp"
+        android:layout_height="25dp"
+        android:layout_weight="0.13"
+        android:onClick="IngresoLogin"
+        android:padding="10sp"
+        android:paddingBottom="15sp"
+        android:text="Ingresar" />
+
+
+</LinearLayout>
